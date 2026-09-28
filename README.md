@@ -1,5 +1,7 @@
 # vue3-image-annotation
 
+[English](./README.en.md) | **简体中文**
+
 [![npm version](https://img.shields.io/npm/v/vue3-image-annotation.svg)](https://www.npmjs.com/package/vue3-image-annotation)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![test](https://img.shields.io/badge/test-vitest-green.svg)]()
