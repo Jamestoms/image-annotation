@@ -12,6 +12,8 @@ A Vue 3 image annotation component based on [fabric.js](https://www.fabricjs.com
 
 提供 `<ImageCaption />` 组件：缩略图区域 + 主标注区域 + 工具区域，支持矩形、圆形、多边形标注，支持选中拖动、删除、撤销/反撤销、标签管理、标注数据回显与获取。
 
+React 版本：[react-images-annotation](https://github.com/Jamestoms/react-images-annotation) —— 功能、交互与标注数据格式与本组件完全一致。
+
 ## 特性
 
 - 矩形 / 圆形拖拽绘制，多边形逐点点击绘制（双击或回车结束，ESC 取消）
@@ -258,6 +260,10 @@ interface ImageItem {
 | 双击 / 点击起始顶点 | 结束多边形绘制 |
 
 > 标注对象不支持控制柄缩放（避免坐标换算误差），画错可删除重画或撤销。
+
+## 相关版本
+
+- [react-images-annotation](https://github.com/Jamestoms/react-images-annotation)：本组件的 React 版本（npm 包名 `react-images-annotation`，支持 React 18 / 19），功能、交互与 UI 完全一致，标注数据（`AnnotationData` / `ImageItem`）格式互通，同一份标注数据可在 Vue3 / React 项目间直接使用。
 
 ## 本地开发
 

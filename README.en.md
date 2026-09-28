@@ -10,6 +10,8 @@ A Vue 3 image annotation component based on [fabric.js](https://www.fabricjs.com
 
 It provides an `<ImageCaption />` component consisting of a thumbnail panel, a main annotation area and a toolbar. It supports rectangle, circle and polygon annotations, selection & dragging, deletion, undo/redo, label management, as well as annotation data echo and retrieval.
 
+A React version is also available: [react-images-annotation](https://github.com/Jamestoms/react-images-annotation) — identical features, interactions and annotation data format.
+
 ## Features
 
 - Rectangle / circle drawing by dragging, polygon drawing by clicking point by point (double-click or Enter to finish, ESC to cancel)
@@ -256,6 +258,10 @@ interface ImageItem {
 | Double-click / click the starting vertex | Finish polygon drawing |
 
 > Annotations do not support control-handle scaling (to avoid coordinate conversion errors) — delete and redraw, or undo, if you make a mistake.
+
+## Related Versions
+
+- [react-images-annotation](https://github.com/Jamestoms/react-images-annotation): the React version of this component (npm package name `react-images-annotation`, supports React 18 / 19) — identical features, interactions and UI, with fully compatible annotation data (`AnnotationData` / `ImageItem`), so the same annotation data can be used directly across Vue3 / React projects.
 
 ## Local Development
 
